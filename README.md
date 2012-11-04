@@ -1,4 +1,4 @@
 Chains
 ======
 
-Chains of funcs that get executed in the background/
+Allows for the declaration of Func<Type, Type>'s that are then chained together and executed synchronously or asynchronously
