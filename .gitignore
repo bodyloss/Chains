@@ -6,7 +6,9 @@ FuncChains.vsmdi
 *.suo
 *.sdf
 TestResults/
-
+bin/
+obj/
+*.user
 
 # Compiled source #
 ###################

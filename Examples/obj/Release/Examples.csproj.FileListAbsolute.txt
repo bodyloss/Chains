@@ -1,4 +1,0 @@
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Examples\bin\Release\FuncChainsTest.exe
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Examples\bin\Release\Chains.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Examples\obj\Release\ResolveAssemblyReference.cache
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Examples\obj\Release\FuncChainsTest.exe

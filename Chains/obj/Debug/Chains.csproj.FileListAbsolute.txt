@@ -1,5 +1,0 @@
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.pdb
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\obj\Debug\Chains.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\obj\Debug\Chains.pdb

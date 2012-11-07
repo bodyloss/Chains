@@ -1,9 +1,0 @@
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\ChainsTest.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\ChainsTest.pdb
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\Chains.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\Chains.pdb
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\Chains_Accessor.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Debug\Chains_Accessor.pdb
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Debug\ChainsTest.dll
-C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Debug\ChainsTest.pdb
