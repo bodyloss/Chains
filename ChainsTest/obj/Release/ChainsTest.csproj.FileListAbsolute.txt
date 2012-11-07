@@ -1,0 +1,8 @@
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Release\ChainsTest.dll
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Release\ChainsTest.pdb
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Release\Chains.dll
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Release\Chains_Accessor.dll
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\bin\Release\Chains_Accessor.pdb
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Release\ChainsTest.dll
+C:\Users\jciechanowicz\Documents\GitHub\Chains\ChainsTest\obj\Release\ChainsTest.pdb

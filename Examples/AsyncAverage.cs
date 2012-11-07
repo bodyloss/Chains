@@ -5,7 +5,7 @@ namespace FuncChainsTest
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using FuncChains;
+    using Chains;
 
     /// <summary>
     /// Calculates the average of a randomly generated set of numbers
@@ -44,7 +44,7 @@ namespace FuncChainsTest
 
             chain.ExecuteFinished += (sender, e) =>
             {
-                Console.WriteLine("Async execute finished, result: " + e.Value);
+                Console.WriteLine("Async execute finished, result: " + e.Output);
             };
 
             // Start execution of our chain, passing in a large initial argument so it takes some time

@@ -1,0 +1,3 @@
+C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Release\Chains.dll
+C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\obj\Release\ResolveAssemblyReference.cache
+C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\obj\Release\Chains.dll

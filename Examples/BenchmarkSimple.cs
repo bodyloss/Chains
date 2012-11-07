@@ -1,9 +1,4 @@
-﻿// -----------------------------------------------------------------------
-// <copyright file="BenchmarkSimple.cs" company="OpenBet Retail">
-// TODO: Update copyright text.
-// </copyright>
-// -----------------------------------------------------------------------
-
+﻿
 namespace FuncChainsTest
 {
     using System;
@@ -11,7 +6,7 @@ namespace FuncChainsTest
     using System.Linq;
     using System.Text;
     using System.Threading;
-    using FuncChains;
+    using Chains;
     using System.Diagnostics;
 
     /// <summary>

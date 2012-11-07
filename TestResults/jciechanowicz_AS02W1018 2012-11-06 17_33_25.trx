@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="78ced61f-f5ae-438d-aacc-a82e5e14e19a" name="jciechanowicz@AS02W1018 2012-11-06 17:33:25" runUser="ALPHAMERIC\jciechanowicz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="42885817-39b2-4c60-8baf-effd82c36c3a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="jciechanowicz_AS02W1018 2012-11-06 17_33_25">
+      <DeploymentItem filename="C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.dll" pdbFile="C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-06T17:33:25.5978223+00:00" queuing="2012-11-06T17:33:29.3468223+00:00" start="2012-11-06T17:33:29.6078223+00:00" finish="2012-11-06T17:33:36.4138223+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="AS02W1018\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestExecutionError" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="b47c5645-a659-615b-ce7b-6ce6ab5529a2">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="72dfdbce-63c0-459f-aecb-0efd772b9e4d" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.LinearTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExecutionError" />
+    </UnitTest>
+    <UnitTest name="TestMultiTypeChain" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="68ac6d6b-f5b3-f477-1a81-e154524c5f22">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="407f70e6-cf62-4425-8f0d-a03a4eadfb0f" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.LinearTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMultiTypeChain" />
+    </UnitTest>
+    <UnitTest name="TestAsyncTypeError" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="81d5d5a8-dd7a-917e-7657-37b0ce778671">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="daca8bdf-2ed5-4778-a550-e876bf3aace9" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.AsyncTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAsyncTypeError" />
+    </UnitTest>
+    <UnitTest name="TestAsyncExecution" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="1356002e-e897-872c-78a5-df7ecc91f3ce">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="1bc0e71b-d2b0-45ee-9ec5-41f006af2dae" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.AsyncTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAsyncExecution" />
+    </UnitTest>
+    <UnitTest name="TestAsyncExecutionError" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="96e8f2f6-ba20-7685-0b8c-dedda47979fb">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="17509475-82e5-4325-9722-52ef2b7ae4b0" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.AsyncTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAsyncExecutionError" />
+    </UnitTest>
+    <UnitTest name="TestTypeMismatch" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="de55ba53-e509-e1d8-72d1-3c3e89a04967">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="c245edd7-d96b-4b11-bcaa-da9475404c3f" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.LinearTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTypeMismatch" />
+    </UnitTest>
+    <UnitTest name="TestSimpleChain" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="ed1fc067-3a0e-4957-2e9c-00e356d1e9fa">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="0bc44392-ab55-45ee-aed4-0fb6f7193de5" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.LinearTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleChain" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1356002e-e897-872c-78a5-df7ecc91f3ce" executionId="1bc0e71b-d2b0-45ee-9ec5-41f006af2dae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68ac6d6b-f5b3-f477-1a81-e154524c5f22" executionId="407f70e6-cf62-4425-8f0d-a03a4eadfb0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81d5d5a8-dd7a-917e-7657-37b0ce778671" executionId="daca8bdf-2ed5-4778-a550-e876bf3aace9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96e8f2f6-ba20-7685-0b8c-dedda47979fb" executionId="17509475-82e5-4325-9722-52ef2b7ae4b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b47c5645-a659-615b-ce7b-6ce6ab5529a2" executionId="72dfdbce-63c0-459f-aecb-0efd772b9e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de55ba53-e509-e1d8-72d1-3c3e89a04967" executionId="c245edd7-d96b-4b11-bcaa-da9475404c3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed1fc067-3a0e-4957-2e9c-00e356d1e9fa" executionId="0bc44392-ab55-45ee-aed4-0fb6f7193de5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1bc0e71b-d2b0-45ee-9ec5-41f006af2dae" testId="1356002e-e897-872c-78a5-df7ecc91f3ce" testName="TestAsyncExecution" computerName="AS02W1018" duration="00:00:00.1159433" startTime="2012-11-06T17:33:33.4718223+00:00" endTime="2012-11-06T17:33:34.8968223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bc0e71b-d2b0-45ee-9ec5-41f006af2dae">
+    </UnitTestResult>
+    <UnitTestResult executionId="407f70e6-cf62-4425-8f0d-a03a4eadfb0f" testId="68ac6d6b-f5b3-f477-1a81-e154524c5f22" testName="TestMultiTypeChain" computerName="AS02W1018" duration="00:00:00.0045541" startTime="2012-11-06T17:33:34.9188223+00:00" endTime="2012-11-06T17:33:34.9278223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="407f70e6-cf62-4425-8f0d-a03a4eadfb0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="daca8bdf-2ed5-4778-a550-e876bf3aace9" testId="81d5d5a8-dd7a-917e-7657-37b0ce778671" testName="TestAsyncTypeError" computerName="AS02W1018" duration="00:00:00.0030750" startTime="2012-11-06T17:33:34.9468223+00:00" endTime="2012-11-06T17:33:34.9528223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="daca8bdf-2ed5-4778-a550-e876bf3aace9">
+    </UnitTestResult>
+    <UnitTestResult executionId="17509475-82e5-4325-9722-52ef2b7ae4b0" testId="96e8f2f6-ba20-7685-0b8c-dedda47979fb" testName="TestAsyncExecutionError" computerName="AS02W1018" duration="00:00:00.0015897" startTime="2012-11-06T17:33:34.9608223+00:00" endTime="2012-11-06T17:33:34.9648223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17509475-82e5-4325-9722-52ef2b7ae4b0">
+    </UnitTestResult>
+    <UnitTestResult executionId="72dfdbce-63c0-459f-aecb-0efd772b9e4d" testId="b47c5645-a659-615b-ce7b-6ce6ab5529a2" testName="TestExecutionError" computerName="AS02W1018" duration="00:00:00.0010579" startTime="2012-11-06T17:33:35.0088223+00:00" endTime="2012-11-06T17:33:35.0128223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72dfdbce-63c0-459f-aecb-0efd772b9e4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c245edd7-d96b-4b11-bcaa-da9475404c3f" testId="de55ba53-e509-e1d8-72d1-3c3e89a04967" testName="TestTypeMismatch" computerName="AS02W1018" duration="00:00:00.0026663" startTime="2012-11-06T17:33:35.0468223+00:00" endTime="2012-11-06T17:33:35.0528223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c245edd7-d96b-4b11-bcaa-da9475404c3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="0bc44392-ab55-45ee-aed4-0fb6f7193de5" testId="ed1fc067-3a0e-4957-2e9c-00e356d1e9fa" testName="TestSimpleChain" computerName="AS02W1018" duration="00:00:00.0462534" startTime="2012-11-06T17:33:35.0578223+00:00" endTime="2012-11-06T17:33:35.1078223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bc44392-ab55-45ee-aed4-0fb6f7193de5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

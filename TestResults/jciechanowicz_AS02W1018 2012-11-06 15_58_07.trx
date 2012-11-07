@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7f47d1c0-eed4-434e-b494-3f50203d482c" name="jciechanowicz@AS02W1018 2012-11-06 15:58:07" runUser="ALPHAMERIC\jciechanowicz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="42885817-39b2-4c60-8baf-effd82c36c3a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jciechanowicz_AS02W1018 2012-11-06 15_58_07">
+      <DeploymentItem filename="C:\Users\jciechanowicz\Documents\GitHub\Chains\Chains\bin\Debug\Chains.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-06T15:58:07.4448223+00:00" queuing="2012-11-06T15:58:08.1878223+00:00" start="2012-11-06T15:58:08.2078223+00:00" finish="2012-11-06T15:58:11.1908223+00:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="AS02W1018" outcome="Warning" timestamp="2012-11-06T15:58:08.1868223+00:00">
+        <Text>Deployment is currently disabled. The deployment item 'Chains.dll' on test 'ChainsTest.ChainsTests.TestTypeMismatch' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTypeMismatch" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="03ef428c-1cd0-627d-8cce-c571c16c3566">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="2eedb2ce-797c-4880-96c7-d46074c9e023" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.ChainsTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTypeMismatch" />
+    </UnitTest>
+    <UnitTest name="TestSimpleChain" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="9e318b57-9d2d-a34d-d4ca-ad4722d68947">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="660aea81-93a2-4b54-bf9b-8eb639d978ea" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.ChainsTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleChain" />
+    </UnitTest>
+    <UnitTest name="TestExecutionError" storage="c:\users\jciechanowicz\documents\github\chains\chainstest\bin\debug\chainstest.dll" id="9dfbf65a-5d15-5fbe-ba87-7945726c006a">
+      <DeploymentItems>
+        <DeploymentItem filename="Chains.dll" />
+      </DeploymentItems>
+      <Execution id="3a102487-c13d-48bc-9e8b-3e1c98d1164f" />
+      <TestMethod codeBase="C:/Users/jciechanowicz/Documents/GitHub/Chains/ChainsTest/bin/Debug/ChainsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChainsTest.ChainsTests, ChainsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExecutionError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03ef428c-1cd0-627d-8cce-c571c16c3566" executionId="2eedb2ce-797c-4880-96c7-d46074c9e023" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9dfbf65a-5d15-5fbe-ba87-7945726c006a" executionId="3a102487-c13d-48bc-9e8b-3e1c98d1164f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e318b57-9d2d-a34d-d4ca-ad4722d68947" executionId="660aea81-93a2-4b54-bf9b-8eb639d978ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2eedb2ce-797c-4880-96c7-d46074c9e023" testId="03ef428c-1cd0-627d-8cce-c571c16c3566" testName="TestTypeMismatch" computerName="AS02W1018" duration="00:00:00.1106023" startTime="2012-11-06T15:58:08.2178223+00:00" endTime="2012-11-06T15:58:11.0178223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2eedb2ce-797c-4880-96c7-d46074c9e023">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a102487-c13d-48bc-9e8b-3e1c98d1164f" testId="9dfbf65a-5d15-5fbe-ba87-7945726c006a" testName="TestExecutionError" computerName="AS02W1018" duration="00:00:00.0009892" startTime="2012-11-06T15:58:11.0388223+00:00" endTime="2012-11-06T15:58:11.0448223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a102487-c13d-48bc-9e8b-3e1c98d1164f">
+    </UnitTestResult>
+    <UnitTestResult executionId="660aea81-93a2-4b54-bf9b-8eb639d978ea" testId="9e318b57-9d2d-a34d-d4ca-ad4722d68947" testName="TestSimpleChain" computerName="AS02W1018" duration="00:00:00.0773749" startTime="2012-11-06T15:58:11.0528223+00:00" endTime="2012-11-06T15:58:11.1338223+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="660aea81-93a2-4b54-bf9b-8eb639d978ea">
+    </UnitTestResult>
+  </Results>
+</TestRun>

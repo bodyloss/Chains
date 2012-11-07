@@ -5,7 +5,7 @@ namespace FuncChainsTest
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using FuncChains;
+    using Chains;
 
     /// <summary>
     /// Calculates the average of a randomly generated set of numbers
@@ -14,7 +14,7 @@ namespace FuncChainsTest
     {
         public static void Run()
         {
-            SafeChain<int, double> chain = new SafeChain<int, double>()
+            Chain<int, double> chain = new Chain<int, double>()
             .Link<int>(x =>
             {
                 // Generate random array of ints

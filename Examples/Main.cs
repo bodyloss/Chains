@@ -1,5 +1,5 @@
 using System;
-using FuncChains;
+using Chains;
 using System.Diagnostics;
 using System.Threading;
 
@@ -9,7 +9,7 @@ namespace FuncChainsTest
 	{
 		public static void Main (string[] args)
 		{
-            BenchmarkSimple.Benchmark();
+            AsyncBenchmark.Run();
 
 			Console.Read ();
 		}

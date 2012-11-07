@@ -55,18 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncAverage.cs" />
+    <Compile Include="AsyncBenchmark.cs" />
     <Compile Include="Average.cs" />
     <Compile Include="BenchmarkSimple.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\FuncChains\FuncChains.csproj">
-      <Project>{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}</Project>
-      <Name>FuncChains</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
@@ -83,5 +78,11 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chains\Chains.csproj">
+      <Project>{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}</Project>
+      <Name>Chains</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
