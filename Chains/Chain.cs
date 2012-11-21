@@ -1,4 +1,3 @@
-
 namespace Chains
 {
     using System;
@@ -9,46 +8,46 @@ namespace Chains
     /// <summary>
     /// Represents a set of functions that form the links of a chain, each link takes as input the output of the previous link
     /// </summary>
-    /// <typeparam name="FIn">The type of the initial input to the chain</typeparam>
-    /// <typeparam name="FOut">The type of the eventual output of the last link in the chain</typeparam>
+    /// <typeparam name="TIn">The type of the initial input to the chain</typeparam>
+    /// <typeparam name="TOut">The type of the eventual output of the last link in the chain</typeparam>
     [System.Runtime.InteropServices.ComVisible(true)]
-	public class Chain<TIn, TOut>
+    public class Chain<TIn, TOut>
 	{
         // The rate at which the array that holds the functions is expanded
-        // A List is not used as that was found to be slightly slower than a direct array
-		private const double expansionFactor = 1.5;
+        // A List is not used as that was found to be slightly slower than using a direct array
+	private const double expansionFactor = 1.5;
 
         // Holds our chain of functions
         private Func<int, object, object>[] chain = null;
 
-        // The location of the next place to insert a function into chain
+        // The location of the next place to insert a function into the chain
         private int index = 0;
 
-		/// <summary>
-		/// Fired when the an asynchronous execution of the chain finishes
-		/// </summary>
-		public event EventHandler<ExecuteFinishedEventArgs<TIn, TOut>> ExecuteFinished = null;
+	/// <summary>
+	/// Fired when the an asynchronous execution of the chain finishes
+	/// </summary>
+	public event EventHandler<ExecuteFinishedEventArgs<TIn, TOut>> ExecuteFinished = null;
 
         /// <summary>
-        /// Create a new chain that accepts TIn and output TOut
+        /// Create a new chain that accepts TIn and outputs TOut
         /// </summary>
-		public Chain ()
-		{
-			chain = new Func<int, object, object>[1];
-		}
+	public Chain ()
+	{
+		chain = new Func<int, object, object>[1];
+	}
 
-		/// <summary>
-		/// Adds the specified func as the next link in the chain
-		/// </summary>
-		/// <param name='func'>
-		/// The func that will be executed as the next link in the chain
-		/// </param>
+	/// <summary>
+	/// Adds the specified func as the next link in the chain
+	/// </summary>
+	/// <param name='func'>
+	/// The func that will be executed as the next link in the chain
+	/// </param>
         /// <param name="typeCheck">
         /// Whether to add type checking to ensure each link receives the type it is meant to
         /// </param>
-		/// <typeparam name='FInput'>
-		/// The type that the specified func will receive as its input
-		/// </typeparam>
+	/// <typeparam name='FInput'>
+	/// The type that the specified func will receive as its input
+	/// </typeparam>
         public virtual Chain<TIn, TOut> Link<TInput>(Func<TInput, object> func)
         {
             // Check if we need to extend our array that holds functions
@@ -89,24 +88,24 @@ namespace Chains
         /// <exception cref="LinkArgumentException">Thrown if a link receives the wrong type of input, contains the offending link</exception>
         /// <exception cref="ChainExecutionException">Thrown when a link throws an 
         /// exception. Contains the original exception and the offending link</exception>
-		public TOut Execute(TIn value) {
+	public TOut Execute(TIn value) {
             object lastValue = value;
             for (int i = 0; i < index; i++)
             {
                 lastValue = chain[i](i, lastValue);
             }
             return (TOut)lastValue;
-		}
+	}
 
         /// <summary>
         /// Executes the chain asynchronously using the given argument as the argument to the first link.
         /// The event ExecuteFinished is fired when this completes
         /// </summary>
         /// <param name="value">Initial argument that is passed to the first link in the chain</param>
-		public void ExecuteAsync(TIn value) {
+	public void ExecuteAsync(TIn value) {
             Func<TIn, ChainReturn<TOut>> func = new Func<TIn, ChainReturn<TOut>>(ExecuteWithHandling);
             func.BeginInvoke(value, ExecuteAsyncCallback, value);
-		}
+	}
 
         /// <summary>
         /// Callback to execute when the chain finishes
@@ -165,6 +164,6 @@ namespace Chains
             }
             return new ChainReturn<TOut>((TOut)lastValue);
         }
-	}
+    }
 }
 
