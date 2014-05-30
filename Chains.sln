@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7FA3EE6-5A91-45E5-ACE7-EFB97197F980}"
 	ProjectSection(SolutionItems) = preProject
 		FuncChains.vsmdi = FuncChains.vsmdi
@@ -16,34 +16,38 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainsTest", "ChainsTest\ChainsTest.csproj", "{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FuncChains.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 		Default|Any CPU = Default|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{081AFBE5-BFC7-476B-893F-3D87D73A39BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A1C5D8F-3A0E-4455-9169-3A59649A48AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACFFCB2-C5A6-4B39-9154-FFE9E8045E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Examples\Examples.csproj
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = FuncChains.vsmdi
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
