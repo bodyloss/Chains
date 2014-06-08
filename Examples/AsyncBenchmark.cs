@@ -62,7 +62,7 @@ namespace FuncChainsTest
             Stopwatch sw = Stopwatch.StartNew();
             for (int i = 0; i < iters; i++)
             {
-                started++;o
+                started++;
                 chain.ExecuteAsync(10);
 
                 diff.Enqueue(started - count);
